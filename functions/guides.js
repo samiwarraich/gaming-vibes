@@ -6,16 +6,14 @@ exports.handler = async (event, context) => {
   ];
 
   if (context.clientContext.user) {
-    // fetch data & then return
     return {
       statusCode: 200,
       body: JSON.stringify(guides),
     };
   }
 
-  // return error status
   return {
     statusCode: 401,
-    body: JSON.stringify({ mssg: "You must be logged into see this" }),
+    body: JSON.stringify({ msg: "You must be logged into see this" }),
   };
 };
