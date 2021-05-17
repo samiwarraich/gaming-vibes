@@ -2,7 +2,7 @@ import { useEffect, useContext, useState } from "react";
 import styles from "../styles/Guides.module.css";
 import AuthContext from "../stores/authContext";
 
-export default function Guides() {
+const Guides = () => {
   const { user, authReady } = useContext(AuthContext);
   const [guides, setGuides] = useState(null);
   const [error, setError] = useState(null);
@@ -60,3 +60,5 @@ export default function Guides() {
     </div>
   );
 }
+
+export default Guides;

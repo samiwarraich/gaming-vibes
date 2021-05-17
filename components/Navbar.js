@@ -3,9 +3,9 @@ import Image from "next/image";
 import AuthContext from "../stores/authContext";
 import { useContext } from "react";
 
-export default function Navbar() {
+const  Navbar = () => {
   const { user, login, logout, authReady } = useContext(AuthContext);
-
+  
   return (
     <div className="container">
       <nav>
@@ -42,3 +42,5 @@ export default function Navbar() {
     </div>
   );
 }
+
+export default Navbar;

@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar";
 import "../styles/globals.css";
 import { AuthContextProvider } from "../stores/authContext";
 
-function MyApp({ Component, pageProps }) {
+const MyApp = ({ Component, pageProps }) => {
   return (
     <AuthContextProvider>
       <Navbar />
