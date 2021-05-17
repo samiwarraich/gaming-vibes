@@ -9,6 +9,6 @@ const MyApp = ({ Component, pageProps }) => {
       <Component {...pageProps} />
     </AuthContextProvider>
   );
-}
+};
 
 export default MyApp;
