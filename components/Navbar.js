@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className="container">
       <nav>
-        <Image src="/rupee.png" width={50} height={48} />
+        <Image src="/rupee.png" width={50} height={48} alt="" />
         <h1>Gaming Vibes</h1>
         {authReady ? (
           <ul>
@@ -37,7 +37,7 @@ const Navbar = () => {
         ) : null}
       </nav>
       <div className="banner">
-        <Image src="/banner.png" width={966} height={276} />
+        <Image src="/banner.png" width={966} height={276} alt="" priority />
       </div>
     </div>
   );
