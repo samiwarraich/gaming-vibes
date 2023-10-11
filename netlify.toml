@@ -1,7 +1,2 @@
 [build]
-command = "next build"
-publish = ".next"
 functions = 'functions'
-
-[[plugins]]
-package = "@netlify/plugin-nextjs@4.40.2"
