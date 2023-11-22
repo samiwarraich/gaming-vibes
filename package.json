@@ -1,6 +1,6 @@
 {
   "name": "gaming-vibes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "netlify-identity-widget": "^1.9.1",
+    "netlify-identity-widget": "^1.9.2",
     "next": "13.4.12",
     "react": "17.0.2",
     "react-dom": "17.0.2"
